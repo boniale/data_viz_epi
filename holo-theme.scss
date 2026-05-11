@@ -10,10 +10,10 @@ $body-color: #111111;
 /*-- scss:rules --*/
 
 .reveal .slide-logo {
-  height: 75px !important;
+  height: 140px !important;
   width: auto !important;
-  top: 18px !important;
-  right: 22px !important;
+  top: 20px !important;
+  right: 20px !important;
 }
 
 .reveal .footer {
@@ -73,12 +73,4 @@ $body-color: #111111;
 
 .closing-slide img {
   margin-bottom: 0.5em;
-}
-
-
-.reveal .slide-logo {
-  height: 180px !important;
-  width: auto !important;
-  top: 50px !important;
-  right: 50px !important;
 }
