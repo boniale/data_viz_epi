@@ -20,3 +20,15 @@
     }
   ]
 }
+
+{
+  "platform": "quarto",
+  "metadata": {
+    "appmode": "static"
+  },
+  "environment": {
+    "r": {
+      "version": "4.3.2"
+    }
+  }
+}
