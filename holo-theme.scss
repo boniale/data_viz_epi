@@ -18,6 +18,12 @@ $body-color: #111111;
   right: 10px !important;
 }
 
+
+html.no-logo .reveal .slide-logo {
+  display: none !important;
+}
+
+
 .reveal .footer {
   color: #00507f;
   font-size: 0.45em;
