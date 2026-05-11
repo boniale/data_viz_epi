@@ -627,7 +627,7 @@ True or false?
 - Show uncertainty when data are estimates.
 - Write titles that explain the insight.
 
-
+## {.closing-slide data-state="hide-logo"}
 ## {.closing-slide data-background-color="#ffffff"}
 
 ![](logo.png){width=180px}
