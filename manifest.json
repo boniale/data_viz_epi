@@ -1,0 +1,22 @@
+{
+  "name": "Principles of Data Visualization and Storytelling",
+  "short_name": "DataViz Workshop",
+  "description": "Interactive Quarto workshop on principles of data visualization and storytelling using R.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00507F",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
