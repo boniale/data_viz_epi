@@ -11,17 +11,33 @@ format:
     code-line-numbers: true
     preview-links: auto
     footer: "https://research.holohc.org/"
-    logo: "logo.png"  
+    logo: "logo.png"
     title-slide-attributes:
       data-background-image: "logo.png"
       data-background-size: contain
       data-background-opacity: "0.02"
+    include-after-body:
+      text: |
+        <script>
+        function toggleLogo(event) {
+          const logo = document.querySelector('.slide-logo');
+          if (!logo) return;
+
+          if (event.currentSlide.classList.contains('closing-slide')) {
+            logo.style.display = 'none';
+          } else {
+            logo.style.display = 'block';
+          }
+        }
+
+        Reveal.on('ready', toggleLogo);
+        Reveal.on('slidechanged', toggleLogo);
+        </script>
 execute:
   echo: true
   warning: false
   message: false
 ---
-
 ## 1. Session goals
 
 By the end of this session, participants will be able to:
@@ -627,7 +643,7 @@ True or false?
 - Show uncertainty when data are estimates.
 - Write titles that explain the insight.
 
-## {.closing-slide data-state="no-logo"}
+## {.closing-slide}
 
 
 ![](logo.png){width=180px}

@@ -1121,7 +1121,7 @@ Dr.&nbsp;Boni Ale, MD, MSc, MPH
 <li>Write titles that explain the insight.</li>
 </ul>
 </section>
-<section id="section" class="slide level2 closing-slide" data-background-color="#ffffff">
+<section id="section" class="slide level2 closing-slide">
 <h2></h2>
 <p><img data-src="logo.png" width="180"></p>
 <h3 id="when-research-leads">When Research Leads,</h3>
@@ -1573,6 +1573,21 @@ Dr.&nbsp;Boni Ale, MD, MSc, MPH
         }
       }
     });
+    </script>
+    <script>
+    function toggleLogo(event) {
+      const logo = document.querySelector('.slide-logo');
+      if (!logo) return;
+
+      if (event.currentSlide.classList.contains('closing-slide')) {
+        logo.style.display = 'none';
+      } else {
+        logo.style.display = 'block';
+      }
+    }
+
+    Reveal.on('ready', toggleLogo);
+    Reveal.on('slidechanged', toggleLogo);
     </script>
     
 
